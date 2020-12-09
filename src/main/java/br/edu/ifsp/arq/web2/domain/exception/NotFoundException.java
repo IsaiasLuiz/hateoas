@@ -1,4 +1,4 @@
-package br.edu.ifsp.arq.web2.week_3.domain.exception;
+package br.edu.ifsp.arq.web2.domain.exception;
 
 public class NotFoundException extends RestException {
     public NotFoundException() {

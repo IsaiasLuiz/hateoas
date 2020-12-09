@@ -1,4 +1,4 @@
-package br.edu.ifsp.arq.web2.week_3;
+package br.edu.ifsp.arq.web2;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

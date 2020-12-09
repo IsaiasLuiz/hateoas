@@ -1,4 +1,4 @@
-package br.edu.ifsp.arq.web2.week_3.domain.model;
+package br.edu.ifsp.arq.web2.domain.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -17,7 +17,7 @@ public class Client {
 
     @Id
     @Column
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long code;
 
     @Column
@@ -31,6 +31,14 @@ public class Client {
     @Column
     @NotBlank
     private String mail;
+
+    @Column
+    @NotBlank
+    private String cpf;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(referencedColumnName = "id")
+    private Address address;
 
 }
 

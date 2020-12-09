@@ -1,6 +1,6 @@
-package br.edu.ifsp.arq.web2.week_3.repository;
+package br.edu.ifsp.arq.web2.repository;
 
-import br.edu.ifsp.arq.web2.week_3.domain.model.Client;
+import br.edu.ifsp.arq.web2.domain.model.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

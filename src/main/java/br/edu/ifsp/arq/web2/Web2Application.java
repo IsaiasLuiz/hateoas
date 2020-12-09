@@ -1,13 +1,13 @@
-package br.edu.ifsp.arq.web2.week_3;
+package br.edu.ifsp.arq.web2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Week3Application {
+public class Web2Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Week3Application.class, args);
+		SpringApplication.run(Web2Application.class, args);
 	}
 
 }
